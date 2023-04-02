@@ -23,6 +23,8 @@
 
  quantum_catapult_0_CONSTRUCTION_INFO_DELAYED:1 "Early iterations of the Quantum Trebuchet may cause fleets to arrive in systems §Houtside§! their intended destination. This '§Yscatter radius§!' can be reduced with subsequent upgrades."
 
+ slingshot_digsite:0 "Quantum Trebuchet"
+
  quantum_catapult_0_DESC:1 "This compact supply depot gathers all the materials and personnel necessary to construct the first batch of vast focusing lenses for the Quantum Trebuchet."
  quantum_catapult_1:0 "Quantum Trebuchet"
 
