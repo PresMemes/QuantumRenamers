@@ -3,6 +3,6 @@ tags={
 	"Overhaul"
 	"Fixes"
 }
-name="Quantum Trebuchet (3.9.X)"
-supported_version="3.9.*"
+name="Quantum Trebuchet (3.10.X)"
+supported_version="3.10.*"
 remote_file_id="2807209823"

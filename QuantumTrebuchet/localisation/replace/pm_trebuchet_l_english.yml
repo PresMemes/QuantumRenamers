@@ -2,7 +2,14 @@
 
  ### OVERWRITES ###
 
- OVERLORD_FEATURES:0 "§EFeatures:§!\n\n- New vassalization mechanics, where you can refine subject agreements with your vassals or your overlord, as well as a new unique specializations for subjects.\n\n- 5 new origins: Imperial Fiefdom, Slingshot to the Stars, Subterranean, Teachers of the Shroud, and Progenitor Hive.\n\n- 3 new enclaves: Shroudwalkers, Mercenary Enclaves, and Salvagers.\n\n- 3 new megastructures: Orbital Rings, Hyper Relays, and Quantum Trebuchets."
+ action_quantum_catapult_insight: "Gain Quantum Trebuchet Insight"
+ action_quantum_catapult_insight_2_desc: "By harnessing the capabilities of $ASTRAL_THREADS_ICON$ even further, we should be able to increase the precision of our Quantum Trebuchet."
+ action_quantum_catapult_insight_2_requirement_tooltip: "$TRIGGER_FAIL$§ROwns a §YQuantum Trebuchet§!.§!"
+
+ concept_quantic_ambush_desc: "- $MOD_SHIP_FIRE_RATE_MULT$: §G+33%§! for 120 days\n\n§LThe instant and unpredictable nature of Quantum Trebuchet travel allows us to hit foes when they least expect it.§!"
+
+ OVERLORD_FEATURES:1 "§EFeatures:§!\n\n- 5 new Origins.\n\n- New vassalization mechanics, where you can refine subject agreements with your vassals or your overlord, as well as a new unique specializations for subjects.\n\n- 3 new Enclaves: Shroudwalkers, Mercenary Enclaves, and Salvagers.\n\n- 3 new Megastructures: Orbital Rings, Hyper Relays, and Quantum Trebuchets."
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_1: "We are recommending §SAstral Planes§! as it pairs well with your §SOverlord§! DLC, allowing for further flexibility with Hyper Relays and Quantum Trebuchets."
 
  MOD_CATAPULT_SPREAD_BASE:0 "Quantum Trebuchet Accuracy (Base)"
  MOD_CATAPULT_SPREAD_MULT:0 "Quantum Trebuchet Accuracy"
@@ -10,37 +17,24 @@
  MOD_CATAPULT_RANGE_MULT:0 "Quantum Trebuchet Range"
  mod_quantum_catapult_megastructure_bypass_windup_mult:0 "Quantum Trebuchet Windup"
 
- quantum_catapult_permanently_ruined_DESC:0 "With the destruction of the star it used for torsion, this trebuchet will fire no more. It has been damaged beyond repair."
-
- origin_tooltip_star_slingshot_effects:3 "- Start with a §H$quantum_catapult_ruined_slingshot$§! near your home system, and the technology necessary to repair and use it.\n- New starbases built in remote systems cost §G75%§! less influence.\n- Your §HQuantum Trebuchets§! are §G50%§! more accurate\n- The §YQuantic Ambush§! bonus from trebucheting fleets is increased to §G+50%§! Fire Rate."
- slingshot_digsite:0 "Quantum Trebuchet"
+ quantum_catapult_permanently_ruined_DESC:0 "With the destruction of the star it used for torsion, this Trebuchet will fire no more. It has been damaged beyond repair."
 
  tech_quantum_catapult:0 "Quantum Trebuchet"
  tech_quantum_catapult_desc:1 "A §YQuantum Trebuchet§! harnesses the power of a Neutron Star or Pulsar to twist the fabric of space, skipping a fleet across great distances."
-
  requires_no_existing_quantum_catapult:0 "$TRIGGER_FAIL$Cannot build more than one Quantum Trebuchet."
  requires_no_existing_quantum_catapul_two:0 "$TRIGGER_FAIL$Cannot build more than two Quantum Trebuchets."
-
  quantum_catapult_0_CONSTRUCTION_INFO_DELAYED:1 "Early iterations of the Quantum Trebuchet may cause fleets to arrive in systems §Houtside§! their intended destination. This '§Yscatter radius§!' can be reduced with subsequent upgrades."
-
  quantum_catapult_0_DESC:1 "This compact supply depot gathers all the materials and personnel necessary to construct the first batch of vast focusing lenses for the Quantum Trebuchet."
  quantum_catapult_1:0 "Quantum Trebuchet"
-
  quantum_catapult_BYPASS:0 "Quantum Trebuchet"
-
  FLEETORDER_QUANTUM_CATAPULT_HEADER:0 "Trebuchet Fleet"
  FLEETORDER_QUANTUM_CATAPULT_DESC:0 "Launch a fleet from a system with a §YQuantum Trebuchet§!."
-
  QUANTUM_CATAPULT_PENALTY:1 "§YQuantum Trebuchets§! lose accuracy with range, so fleets will appear in a random system within the indicated scatter radius.\n\nFleets launched this way receive a [GetQuanticAmbushBonus] §YFire Rate§! increase for £time£ §Y120 days§!."
-
  FLEET_ORDER_NO_QUANTUM_CATAPULT:0 "§RFleets can only be trebucheted from a system with a Quantum Trebuchet§!"
  FLEET_ORDER_NO_QUANTUM_CATAPULT_IN:0 "§RNo functioning Quantum Trebuchet in $SYSTEM|H$§!"
  QUANTUM_CATAPULT_COUNTRY_CANNOT_USE:0 "$TRIGGER_FAIL$ The §Y[From.GetName]§! has denied us access to their Quantum Trebuchet."
-
  FLEETORDER_CATAPULT_WINDUP:1 "Trebuchet Windup: $DAYS|Y0$ Days"
-
  MESSAGE_FLEET_ORDER_CATAPULT_WINDUP_COMPLETE_TITLE:0 "Quantum Trebuchet Transit Complete"
  MESSAGE_FLEET_ORDER_CATAPULT_WINDUP_COMPLETE_DESC:1 "$FLEET|Y$ has completed its transit via Quantum Trebuchet, arriving in $SYSTEM|Y$."
-
  tutorial.2125.desc:0 "Recent advances in mega-engineering research mean we may now construct a §SQuantum Trebuchet§! around a §Spulsar§! or §Sneutron star§!. We can begin building by issuing orders to a §SConstruction Ship§!."
  tutorial.2126.desc:0 "The §SQuantum Trebuchet§! launches ships and fleets across vast, interstellar distances. This technology greatly improves our ability to react to emerging situations within our empire, and in nearby regions of space.\n\nUse of the Quantum Trebuchet carries some risk, as our fleets may arrive in systems other than their intended target. We can mitigate these risks - and improve matters like throughput and maximum range - by upgrading the Quantum Trebuchet to higher tiers."
