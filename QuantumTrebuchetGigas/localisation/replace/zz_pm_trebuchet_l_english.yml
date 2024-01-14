@@ -1,0 +1,7 @@
+﻿l_english:
+
+ ### OVERWRITES ###
+
+ quantum_catapult_0:0 "$gc_mega$Quantum Trebuchet Site"
+
+ quantum_catapult_0_CONSTRUCTION_INFO_DELAYED:1 "$giga_list_additional_data$ - Early iterations of the Quantum Trebuchet may cause fleets to arrive in systems §Houtside§! their intended destination. This '§YScatter Radius§!' can be reduced with subsequent upgrades."
