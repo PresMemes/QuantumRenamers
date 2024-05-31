@@ -4,5 +4,5 @@ tags={
 	"Fixes"
 }
 name="Quantum Fleet Yeeter (3.12.X)"
-supported_version="3.12.*"
+supported_version="v3.12.*"
 remote_file_id="2809978227"
