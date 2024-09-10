@@ -4,5 +4,5 @@ tags={
 	"Fixes"
 }
 name="Quantum Trebuchet + Gigastructures"
-supported_version="v3.12.*"
+supported_version="v3.13.*"
 remote_file_id="3139279263"
