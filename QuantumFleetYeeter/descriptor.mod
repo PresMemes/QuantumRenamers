@@ -3,6 +3,6 @@ tags={
 	"Overhaul"
 	"Fixes"
 }
-name="Quantum Fleet Yeeter (3.13.X)"
-supported_version="v3.13.*"
+name="Quantum Fleet Yeeter (3.14.X)"
+supported_version="v3.14.*"
 remote_file_id="2809978227"
